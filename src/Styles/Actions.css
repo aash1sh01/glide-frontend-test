@@ -1,0 +1,24 @@
+.action-items-container {
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    padding: 20px;
+  }
+  
+  .action-items-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .past-due {
+    color: red;
+  }
+  
+  .approaching-due {
+    color: yellow;
+  }
+  
+  .far-due {
+    color: green;
+  }
+  

@@ -1,0 +1,111 @@
+.community-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .community-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .community-title {
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    color: #83c5be; /* change title color to light green */
+    margin-top: -150px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+  }
+  
+  .community-icon {
+    margin-right: 10px;
+  }
+  
+  .community-todo,
+  .community-posts,
+  .community-action-items {
+    background-color: #edf6f9; /* change background color to light blue */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .community-todo h2,
+  .community-action-items h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #006d77; /* change heading color to dark green */
+  }
+  
+  .community-todo ul,
+  .community-action-items ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .community-todo li,
+  .community-action-items li {
+    margin-bottom: 10px;
+  }
+  
+  .community-todo input[type="text"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+  }
+  
+  .community-todo button,
+  .community-action-items .expand-button {
+    padding: 5px 10px;
+    background-color: #006d77; /* change button color to dark green */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .community-todo button:hover,
+  .community-action-items .expand-button:hover {
+    background-color: #034c4f; /* change button hover color to darker green */
+  }
+  
+  .community-action-items li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .community-action-items .item-title {
+    font-weight: bold;
+    color: #006d77; /* change item title color to dark green */
+  }
+  
+  .community-action-items .item-due-date {
+    font-style: italic;
+  }
+  
+  .community-action-items .item-due-date.passed {
+    color: red;
+  }
+  
+  .community-action-items .item-due-date.approaching {
+    color: yellow;
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .community-title {
+      font-size: 2rem;
+    }
+  
+    .community-todo,
+    .community-posts,
+    .community-action-items {
+      padding: 10px;
+    }
+  }
+  

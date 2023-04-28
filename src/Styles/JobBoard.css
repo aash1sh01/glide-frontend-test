@@ -1,0 +1,28 @@
+/* JobBoard.module.css */
+.job-board-container {
+  padding-top: 2rem;
+}
+
+.job-search-input {
+  padding-right: 2rem;
+}
+
+.job-search-icon {
+ 
+  font-size: 1.25rem;
+  color: #4a4a4a;
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+}
+
+.job-card-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 2rem;
+  justify-items: center;
+  padding: 1rem;
+}

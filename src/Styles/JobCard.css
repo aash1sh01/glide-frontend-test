@@ -1,0 +1,70 @@
+/* JobCard.css */
+.job-card {
+    transition: all 0.3s ease;
+    overflow: hidden;
+    max-height: 250px;
+    background-color: #e0f7fa;
+    border: 1px solid #80cbc4;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .job-card.expanded {
+    transform: scale(1.2);
+    z-index: 10;
+    max-height: none;
+  }
+  
+  .job-description.collapsed,
+  .job-location.collapsed,
+  .job-qualifications.collapsed,
+  .job-company.collapsed {
+    display: none;
+  }
+  
+  .job-title {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    color: #00695c;
+  }
+  
+  .job-description,
+  .job-location,
+  .job-qualifications,
+  .job-company {
+    margin-bottom: 0.5rem;
+  }
+  
+  .job-apply-button,
+  .see-more-button {
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+  }
+  
+  .job-apply-button {
+    background-color: #4db6ac;
+    color: white;
+    border: none;
+    margin-right: 0.5rem;
+  }
+  
+  .job-apply-button:hover {
+    background-color: #26a69a;
+  }
+  
+  .see-more-button {
+    background-color: #80cbc4;
+    color: white;
+    border: none;
+  }
+  
+  .see-more-button:hover {
+    background-color: #4db6ac;
+  }
+  
+  /* Additional padding to separate buttons */
+  button.job-apply-button {
+    margin-right: 10px;
+  }
+  
+  

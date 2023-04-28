@@ -1,0 +1,56 @@
+/* ApplyJob.css */
+
+.apply-job-row {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .job-info-container,
+  .apply-form-container {
+    padding: 1rem;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .apply-form-container {
+    padding: 1rem;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .apply-form-container > .card {
+    border: none;
+    box-shadow: none;
+  }
+  @media (min-width: 768px) {
+    .job-info-container {
+      margin-bottom: 0;
+    }
+  }
+  
+  .apply-form-title {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #4caf50;
+  }
+  
+  .apply-form label {
+    color: #4a4a4a;
+  }
+  
+  .apply-form button {
+    background-color: #4caf50;
+    border-color: #4caf50;
+  }
+  
+  .apply-form .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .apply-form .form-text {
+    color: #007bff;
+  }
+  
+
+  

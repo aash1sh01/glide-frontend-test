@@ -1,0 +1,17 @@
+/* SocialMediaPosts.css */
+
+.title {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .col {
+    margin-bottom: 20px;
+  }
+  
