@@ -1,12 +1,14 @@
 .action-items-container {
-    background-color: #f7f7f7;
-    border: 1px solid #ddd;
-    padding: 20px;
-  }
-  
-  .action-items-heading {
-    font-size: 24px;
-    margin-bottom: 20px;
-    text-align: center;
-  }
-  
+  background-color: #D5E1DD;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.action-items-heading {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #006d77; /* change heading color to dark green */
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+}

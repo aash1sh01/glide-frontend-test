@@ -1,42 +1,111 @@
 .social-media-post {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 600px;
-    margin: 20px auto;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-  }
-  
-  .post-image {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 10px;
-  }
-  
-  .post-title {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-  
-  .post-body {
-    font-size: 18px;
-    margin-bottom: 20px;
-  }
-  
-  .post-actions {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .like-button {
-    margin-right: 10px;
-  }
-  
-  .comment-button {
-    margin-left: 10px;
-  }
-  
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: none;
+  background-color: #D5E1DD;
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.profile-picture {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.post-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-name {
+  font-weight: bold;
+  color: #006d77;
+  margin-bottom: 0;
+}
+
+.post-timestamp {
+  font-size: 0.8rem;
+  color: #525252;
+}
+
+.post-image {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-body {
+  padding: 10px;
+}
+
+.post-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #006d77;
+  margin-bottom: 10px;
+}
+
+.post-body {
+  font-size: 1rem;
+  color: #525252;
+}
+
+.post-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.like-button,
+.comment-button {
+  background-color: #006d77;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px 10px;
+  font-size: 0.9rem;
+}
+
+.like-button:hover,
+.comment-button:hover {
+  background-color: #034c4f;
+}
+
+.attachment-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.attachment-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  font-size: 0.9rem;
+}
+
+.attachment-icon {
+  margin-right: 5px;
+  font-size: 1.2rem;
+  color: #006d77;
+}
+
+.attachment-link {
+  text-decoration: none;
+  color: #006d77;
+}
+
+.attachment-link:hover {
+  text-decoration: underline;
+}
